@@ -7,4 +7,5 @@ RUN apt-get update \
 &&  apt-get autoremove -y \
 &&  apt-get clean
 
-RUN pip install --no-cache-dir sympy
+RUN pip install --no-cache-dir sympy jupyterlab matplotlib
+
